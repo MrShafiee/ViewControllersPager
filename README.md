@@ -132,6 +132,7 @@ var isRTL			: Bool = false (By default it's FALSE!)
 - See my personal website: [Shafi.ee](http://www.shafi.ee)
 - Follow me on twitter: [@Shafi.ee](http://twitter.com/shafi.ee)
 
+ViewControllersPager is a fork from [Pager](https://github.com/lucoceano/Pager) to swift.
 
 
 ## Licence
