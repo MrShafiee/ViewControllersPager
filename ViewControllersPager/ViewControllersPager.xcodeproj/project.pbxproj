@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF18D2D421F60496004A1D4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF18D2D321F60496004A1D4E /* AppDelegate.swift */; };
+		EF18D2D621F60496004A1D4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF18D2D521F60496004A1D4E /* ViewController.swift */; };
+		EF18D2D921F60496004A1D4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF18D2D721F60496004A1D4E /* Main.storyboard */; };
+		EF18D2DB21F60497004A1D4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF18D2DA21F60497004A1D4E /* Assets.xcassets */; };
+		EF18D2DE21F60497004A1D4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF18D2DC21F60497004A1D4E /* LaunchScreen.storyboard */; };
+		EF18D2E921F60497004A1D4E /* ViewControllersPagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF18D2E821F60497004A1D4E /* ViewControllersPagerTests.swift */; };
+		EF18D2F421F60497004A1D4E /* ViewControllersPagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF18D2F321F60497004A1D4E /* ViewControllersPagerUITests.swift */; };
+		EF18D30321F604CD004A1D4E /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF18D30121F604CD004A1D4E /* FirstTableViewController.swift */; };
+		EF18D30421F604CD004A1D4E /* FirstTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF18D30221F604CD004A1D4E /* FirstTableViewController.xib */; };
+		EF18D30721F604DA004A1D4E /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF18D30521F604DA004A1D4E /* SecondTableViewController.swift */; };
+		EF18D30821F604DA004A1D4E /* SecondTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF18D30621F604DA004A1D4E /* SecondTableViewController.xib */; };
+		EF18D30B21F605D5004A1D4E /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF18D30921F605D5004A1D4E /* ThirdViewController.swift */; };
+		EF18D30C21F605D5004A1D4E /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF18D30A21F605D5004A1D4E /* ThirdViewController.xib */; };
+		EF18D31121F60686004A1D4E /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF18D30E21F60686004A1D4E /* TabView.swift */; };
+		EF18D31221F60686004A1D4E /* PagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF18D30F21F60686004A1D4E /* PagerController.swift */; };
+		EF18D31321F60686004A1D4E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF18D31021F60686004A1D4E /* Utils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF18D2E521F60497004A1D4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF18D2C821F60496004A1D4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF18D2CF21F60496004A1D4E;
+			remoteInfo = ViewControllersPager;
+		};
+		EF18D2F021F60497004A1D4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF18D2C821F60496004A1D4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF18D2CF21F60496004A1D4E;
+			remoteInfo = ViewControllersPager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF18D2D021F60496004A1D4E /* ViewControllersPager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewControllersPager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF18D2D321F60496004A1D4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF18D2D521F60496004A1D4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF18D2D821F60496004A1D4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF18D2DA21F60497004A1D4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF18D2DD21F60497004A1D4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF18D2DF21F60497004A1D4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF18D2E421F60497004A1D4E /* ViewControllersPagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewControllersPagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF18D2E821F60497004A1D4E /* ViewControllersPagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllersPagerTests.swift; sourceTree = "<group>"; };
+		EF18D2EA21F60497004A1D4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF18D2EF21F60497004A1D4E /* ViewControllersPagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewControllersPagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF18D2F321F60497004A1D4E /* ViewControllersPagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllersPagerUITests.swift; sourceTree = "<group>"; };
+		EF18D2F521F60497004A1D4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF18D30121F604CD004A1D4E /* FirstTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
+		EF18D30221F604CD004A1D4E /* FirstTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstTableViewController.xib; sourceTree = "<group>"; };
+		EF18D30521F604DA004A1D4E /* SecondTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
+		EF18D30621F604DA004A1D4E /* SecondTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondTableViewController.xib; sourceTree = "<group>"; };
+		EF18D30921F605D5004A1D4E /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		EF18D30A21F605D5004A1D4E /* ThirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		EF18D30E21F60686004A1D4E /* TabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		EF18D30F21F60686004A1D4E /* PagerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagerController.swift; sourceTree = "<group>"; };
+		EF18D31021F60686004A1D4E /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF18D2CD21F60496004A1D4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF18D2E121F60497004A1D4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF18D2EC21F60497004A1D4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF18D2C721F60496004A1D4E = {
+			isa = PBXGroup;
+			children = (
+				EF18D30D21F60686004A1D4E /* ViewControllersPagerLibrary */,
+				EF18D2D221F60496004A1D4E /* ViewControllersPager */,
+				EF18D2E721F60497004A1D4E /* ViewControllersPagerTests */,
+				EF18D2F221F60497004A1D4E /* ViewControllersPagerUITests */,
+				EF18D2D121F60496004A1D4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF18D2D121F60496004A1D4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF18D2D021F60496004A1D4E /* ViewControllersPager.app */,
+				EF18D2E421F60497004A1D4E /* ViewControllersPagerTests.xctest */,
+				EF18D2EF21F60497004A1D4E /* ViewControllersPagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF18D2D221F60496004A1D4E /* ViewControllersPager */ = {
+			isa = PBXGroup;
+			children = (
+				EF18D2D321F60496004A1D4E /* AppDelegate.swift */,
+				EF18D2D521F60496004A1D4E /* ViewController.swift */,
+				EF18D30121F604CD004A1D4E /* FirstTableViewController.swift */,
+				EF18D30221F604CD004A1D4E /* FirstTableViewController.xib */,
+				EF18D30521F604DA004A1D4E /* SecondTableViewController.swift */,
+				EF18D30621F604DA004A1D4E /* SecondTableViewController.xib */,
+				EF18D30921F605D5004A1D4E /* ThirdViewController.swift */,
+				EF18D30A21F605D5004A1D4E /* ThirdViewController.xib */,
+				EF18D2D721F60496004A1D4E /* Main.storyboard */,
+				EF18D2DA21F60497004A1D4E /* Assets.xcassets */,
+				EF18D2DC21F60497004A1D4E /* LaunchScreen.storyboard */,
+				EF18D2DF21F60497004A1D4E /* Info.plist */,
+			);
+			path = ViewControllersPager;
+			sourceTree = "<group>";
+		};
+		EF18D2E721F60497004A1D4E /* ViewControllersPagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF18D2E821F60497004A1D4E /* ViewControllersPagerTests.swift */,
+				EF18D2EA21F60497004A1D4E /* Info.plist */,
+			);
+			path = ViewControllersPagerTests;
+			sourceTree = "<group>";
+		};
+		EF18D2F221F60497004A1D4E /* ViewControllersPagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF18D2F321F60497004A1D4E /* ViewControllersPagerUITests.swift */,
+				EF18D2F521F60497004A1D4E /* Info.plist */,
+			);
+			path = ViewControllersPagerUITests;
+			sourceTree = "<group>";
+		};
+		EF18D30D21F60686004A1D4E /* ViewControllersPagerLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				EF18D30E21F60686004A1D4E /* TabView.swift */,
+				EF18D30F21F60686004A1D4E /* PagerController.swift */,
+				EF18D31021F60686004A1D4E /* Utils.swift */,
+			);
+			path = ViewControllersPagerLibrary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF18D2CF21F60496004A1D4E /* ViewControllersPager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF18D2F821F60497004A1D4E /* Build configuration list for PBXNativeTarget "ViewControllersPager" */;
+			buildPhases = (
+				EF18D2CC21F60496004A1D4E /* Sources */,
+				EF18D2CD21F60496004A1D4E /* Frameworks */,
+				EF18D2CE21F60496004A1D4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViewControllersPager;
+			productName = ViewControllersPager;
+			productReference = EF18D2D021F60496004A1D4E /* ViewControllersPager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF18D2E321F60497004A1D4E /* ViewControllersPagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF18D2FB21F60497004A1D4E /* Build configuration list for PBXNativeTarget "ViewControllersPagerTests" */;
+			buildPhases = (
+				EF18D2E021F60497004A1D4E /* Sources */,
+				EF18D2E121F60497004A1D4E /* Frameworks */,
+				EF18D2E221F60497004A1D4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF18D2E621F60497004A1D4E /* PBXTargetDependency */,
+			);
+			name = ViewControllersPagerTests;
+			productName = ViewControllersPagerTests;
+			productReference = EF18D2E421F60497004A1D4E /* ViewControllersPagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF18D2EE21F60497004A1D4E /* ViewControllersPagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF18D2FE21F60497004A1D4E /* Build configuration list for PBXNativeTarget "ViewControllersPagerUITests" */;
+			buildPhases = (
+				EF18D2EB21F60497004A1D4E /* Sources */,
+				EF18D2EC21F60497004A1D4E /* Frameworks */,
+				EF18D2ED21F60497004A1D4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF18D2F121F60497004A1D4E /* PBXTargetDependency */,
+			);
+			name = ViewControllersPagerUITests;
+			productName = ViewControllersPagerUITests;
+			productReference = EF18D2EF21F60497004A1D4E /* ViewControllersPagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF18D2C821F60496004A1D4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "OdinKit Co.";
+				TargetAttributes = {
+					EF18D2CF21F60496004A1D4E = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					EF18D2E321F60497004A1D4E = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = EF18D2CF21F60496004A1D4E;
+					};
+					EF18D2EE21F60497004A1D4E = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = EF18D2CF21F60496004A1D4E;
+					};
+				};
+			};
+			buildConfigurationList = EF18D2CB21F60496004A1D4E /* Build configuration list for PBXProject "ViewControllersPager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF18D2C721F60496004A1D4E;
+			productRefGroup = EF18D2D121F60496004A1D4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF18D2CF21F60496004A1D4E /* ViewControllersPager */,
+				EF18D2E321F60497004A1D4E /* ViewControllersPagerTests */,
+				EF18D2EE21F60497004A1D4E /* ViewControllersPagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF18D2CE21F60496004A1D4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF18D30421F604CD004A1D4E /* FirstTableViewController.xib in Resources */,
+				EF18D2DE21F60497004A1D4E /* LaunchScreen.storyboard in Resources */,
+				EF18D30C21F605D5004A1D4E /* ThirdViewController.xib in Resources */,
+				EF18D2DB21F60497004A1D4E /* Assets.xcassets in Resources */,
+				EF18D30821F604DA004A1D4E /* SecondTableViewController.xib in Resources */,
+				EF18D2D921F60496004A1D4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF18D2E221F60497004A1D4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF18D2ED21F60497004A1D4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF18D2CC21F60496004A1D4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF18D31221F60686004A1D4E /* PagerController.swift in Sources */,
+				EF18D2D621F60496004A1D4E /* ViewController.swift in Sources */,
+				EF18D30721F604DA004A1D4E /* SecondTableViewController.swift in Sources */,
+				EF18D30B21F605D5004A1D4E /* ThirdViewController.swift in Sources */,
+				EF18D2D421F60496004A1D4E /* AppDelegate.swift in Sources */,
+				EF18D31121F60686004A1D4E /* TabView.swift in Sources */,
+				EF18D30321F604CD004A1D4E /* FirstTableViewController.swift in Sources */,
+				EF18D31321F60686004A1D4E /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF18D2E021F60497004A1D4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF18D2E921F60497004A1D4E /* ViewControllersPagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF18D2EB21F60497004A1D4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF18D2F421F60497004A1D4E /* ViewControllersPagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF18D2E621F60497004A1D4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF18D2CF21F60496004A1D4E /* ViewControllersPager */;
+			targetProxy = EF18D2E521F60497004A1D4E /* PBXContainerItemProxy */;
+		};
+		EF18D2F121F60497004A1D4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF18D2CF21F60496004A1D4E /* ViewControllersPager */;
+			targetProxy = EF18D2F021F60497004A1D4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF18D2D721F60496004A1D4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF18D2D821F60496004A1D4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF18D2DC21F60497004A1D4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF18D2DD21F60497004A1D4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF18D2F621F60497004A1D4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF18D2F721F60497004A1D4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF18D2F921F60497004A1D4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRA4ELC37J;
+				INFOPLIST_FILE = ViewControllersPager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shafi.ee.ViewControllersPager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF18D2FA21F60497004A1D4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRA4ELC37J;
+				INFOPLIST_FILE = ViewControllersPager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shafi.ee.ViewControllersPager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF18D2FC21F60497004A1D4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRA4ELC37J;
+				INFOPLIST_FILE = ViewControllersPagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shafi.ee.ViewControllersPagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViewControllersPager.app/ViewControllersPager";
+			};
+			name = Debug;
+		};
+		EF18D2FD21F60497004A1D4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRA4ELC37J;
+				INFOPLIST_FILE = ViewControllersPagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shafi.ee.ViewControllersPagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViewControllersPager.app/ViewControllersPager";
+			};
+			name = Release;
+		};
+		EF18D2FF21F60497004A1D4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRA4ELC37J;
+				INFOPLIST_FILE = ViewControllersPagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shafi.ee.ViewControllersPagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ViewControllersPager;
+			};
+			name = Debug;
+		};
+		EF18D30021F60497004A1D4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRA4ELC37J;
+				INFOPLIST_FILE = ViewControllersPagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shafi.ee.ViewControllersPagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ViewControllersPager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF18D2CB21F60496004A1D4E /* Build configuration list for PBXProject "ViewControllersPager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF18D2F621F60497004A1D4E /* Debug */,
+				EF18D2F721F60497004A1D4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF18D2F821F60497004A1D4E /* Build configuration list for PBXNativeTarget "ViewControllersPager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF18D2F921F60497004A1D4E /* Debug */,
+				EF18D2FA21F60497004A1D4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF18D2FB21F60497004A1D4E /* Build configuration list for PBXNativeTarget "ViewControllersPagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF18D2FC21F60497004A1D4E /* Debug */,
+				EF18D2FD21F60497004A1D4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF18D2FE21F60497004A1D4E /* Build configuration list for PBXNativeTarget "ViewControllersPagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF18D2FF21F60497004A1D4E /* Debug */,
+				EF18D30021F60497004A1D4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF18D2C821F60496004A1D4E /* Project object */;
+}
